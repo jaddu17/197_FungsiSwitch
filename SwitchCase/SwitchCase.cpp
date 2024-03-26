@@ -1,10 +1,5 @@
 #include <iostream>
 using namespace std;
 
-int
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+int bilangan1, bilangan2;
 
