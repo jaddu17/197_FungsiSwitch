@@ -17,7 +17,7 @@ int perkalian(int a, int b)
 {
 	return a * b;
 }
-int pembagian(int a, int b)
+float pembagian(int a, int b)
 {
 	return a / b;
 }
@@ -68,5 +68,7 @@ int main()
 			system("pause");
 			break;
 		}
-	}
+	} while (pilihan != 5); // != adalah tidak sama dengan.
+
+	return 0;
 }
